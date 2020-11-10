@@ -7,7 +7,7 @@ const ComponentsScreen = () => {
   return (
     <View>
       <Text style={styles.textStyle}>Getting started with React Native!</Text>
-      <Text style={styles.subHeadStyle}>My name is {name}</Text>
+      <Text style={styles.subHeaderStyle}>My name is {name}</Text>
     </View>
   );
 };
@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
   textStyle: {
     fontSize: 45
   },
-  subHeadStyle: {
+  subHeaderStyle: {
     fontSize: 20
   }
 });
