@@ -11,6 +11,7 @@ import SquareScreen from './src/screens/SquareScreen';
 import TextScreen from './src/screens/TextScreen';
 import BoxScreen from './src/screens/BoxScreen';
 import FlexScreen from './src/screens/FlexScreen';
+import PositionScreen from './src/screens/PositionScreen';
 
 const navigator = createStackNavigator(
   {
@@ -23,7 +24,8 @@ const navigator = createStackNavigator(
     Square: SquareScreen,
     Text: TextScreen,
     Box: BoxScreen,
-    Flex: FlexScreen
+    Flex: FlexScreen,
+    Position: PositionScreen
   },
   {
     initialRouteName: "Home",
