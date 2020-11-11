@@ -2,7 +2,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-const BoxScreen = () => {
+const FlexScreen = () => {
   return (
     <View style={styles.viewStyle}>
       <Text style={styles.textOneStyle}>Child #1</Text>
@@ -38,4 +38,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default BoxScreen;
+export default FlexScreen;
